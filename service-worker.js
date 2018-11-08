@@ -1,4 +1,6 @@
 console.log('Service worker starting...');
 
-importScripts('module.js');
-printHello();
+importScripts('foo.js', 'bar.js');
+printFoo();
+printBar();
+
